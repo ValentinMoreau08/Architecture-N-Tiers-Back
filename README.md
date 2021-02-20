@@ -8,7 +8,7 @@
 
 
 ### Documentation API
-Swagger : [Documentation](https://app.swaggerhub.com/apis-docs/Projet-Startup-Poc/Projet-Startup-POC/1.0.0#/)
+Swagger : [Documentation](https://app.swaggerhub.com/apis-docs/ValentinMoreau08/Architecture-N-Tiers/1.0.0)
 
 ## Minimum Requirements
 * **JDK8:**
