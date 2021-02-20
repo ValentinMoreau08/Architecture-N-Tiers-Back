@@ -4,7 +4,7 @@
 ![alt text](SpringArchi.png)
 
 ### Domain Objects - Class diagram :
-![alt text](Class%20diagram.png)
+![alt text](ClassDiagram.png)
 
 
 ### Documentation API
