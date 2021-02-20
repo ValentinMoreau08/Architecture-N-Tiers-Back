@@ -34,3 +34,6 @@ We use 2 Databases in this project : A first for production (default: **mobility
 ## Start
 - Make sure your MySQL is started
 - Run project with maven
+
+## Test policy
+Controller, Service and DAO layers are tested by JUnit5 in folder : `src/test/java/`
