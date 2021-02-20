@@ -10,6 +10,8 @@
 ### Documentation API
 Swagger : [Documentation](https://app.swaggerhub.com/apis-docs/ValentinMoreau08/Architecture-N-Tiers/1.0.0)
 
+Source file OpenAPI : [API-REST-Documentation.yml](API-REST-Documentation.yml)
+
 ## Minimum Requirements
 * **JDK8:**
 * **MySQL**
