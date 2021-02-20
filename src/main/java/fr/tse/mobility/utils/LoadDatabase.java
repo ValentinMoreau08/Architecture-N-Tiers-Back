@@ -37,7 +37,9 @@ public class LoadDatabase {
 	private AppUser admin2;
 	private AppUser user1;
 	private AppUser user2;
-	private Travel travel;
+	private Travel travel1;
+	private Travel travel2;
+	private Travel travel3;
 	
 	@Bean	// Method that will create beam disponible in spring environnement
 	@Profile("!test")
@@ -127,10 +129,17 @@ public class LoadDatabase {
 	@Transactional
 	public void initTravels(TravelRepository travelRepository, StudentRepository studentRepository) {
 		student1 = studentRepository.save(student1);
+		student2 = studentRepository.save(student2);
 		
-		travel = new Travel("Espagne", "Barcelone", "Flawless", new Date(110, 3, 12), new Date(110, 5, 20), student1);
-		travelRepository.save(travel);
-		student1.addTravel(travel);
+		travel1 = new Travel("Espagne", "Barcelone", "Flawless", new Date(110, 3, 12), new Date(110, 5, 20), student1);
+		travel2 = new Travel("Allemagne", "Berlin", "Keirn", new Date(121, 1, 1), new Date(121, 12, 31), student1);
+		travel3 = new Travel("Allemagne", "Haust", "Heins", new Date(121, 2, 2), new Date(121, 5, 20), student2);
+		travelRepository.save(travel1);
+		travelRepository.save(travel2);
+		travelRepository.save(travel3);
+		student1.addTravel(travel1);
+		student1.addTravel(travel2);
+		student1.addTravel(travel3);
 	}
 	
 	
