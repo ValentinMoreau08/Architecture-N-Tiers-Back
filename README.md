@@ -16,9 +16,9 @@ Swagger : [Documentation](https://app.swaggerhub.com/apis-docs/Projet-Startup-Po
 
 
 ## Installation
-- Clone repository : `git clone https://github.com/ValentinMoreau08/Projet-Statup-POC.git`
-- Navigate into cloned folder : `cd Projet-Startup-POC`
-- Use latest branch : `git checkout develop`
+- Clone repository : `git clone https://github.com/ValentinMoreau08/Architecture-N-Tiers-Back.git`
+- Navigate into cloned folder : `cd Architecture-N-Tiers-Back`
+- Use latest branch : `git checkout main`
 - Import project into your IDE
 
     
